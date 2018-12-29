@@ -16,3 +16,7 @@ This repository contains wide variety of Docker examples and scenarios
 * `docker-compose up --build` - to rebuild and start the app
 * `docker-compose ps` - to list all the containers
 * `docker-compose down` - to stop the containers
+
+## Docker volume commands
+
+* `docker run -p 3000:3000 -v /app/node_modules -v $(pwd):/app <dockerid/containername>` - in this case use workdir volumes for node modules and current working directoty for other files.
