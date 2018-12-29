@@ -1,0 +1,24 @@
+{
+  "name": "docker_compose_example",
+  "version": "1.0.0",
+  "description": "example for docker compose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbachi/docker_compose_example.git"
+  },
+  "author": "Bhargav Bachina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bbachi/docker_compose_example/issues"
+  },
+  "homepage": "https://github.com/bbachi/docker_compose_example#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "redis": "^2.8.0"
+  }
+}
